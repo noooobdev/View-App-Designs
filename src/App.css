@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800&family=Karla:wght@300;400;500&family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+    background-color: #dcf0fa;
+}
+
+
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    background-color: #2354cc;
+    height: 50px;
+    align-items: center;
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 32px;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: -20px;
+    padding: 10px;
+    text-align: center;
+    }
+.left-menu{
+    background-color: #b9e2f5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+}
+.browse{
+    margin: 20px;
+}
+
+.scroll-down{
+ border: none;
+ background-color: 	#2354cc;
+ color: white;
+ border-radius: 5px;
+ cursor: pointer;
+ height: 50px;
+ width: 200px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ font-weight: 700;
+}
+
+.top-section{
+ display: flex;
+ justify-content: space-betweens;
+
+}
+
+.app-cate{
+    padding: 20px;
+}
+
+.cards{
+    padding-top: 20px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+     position: relative;
+}
+
+.badge{
+    background-color: #1f8b24;
+    color: #c5f2c7;
+    border-radius: 20px;
+    padding: 3px 20px;
+    height: 30px;
+}
+
+.card-logo{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.head{
+    display: flex;
+    gap: 20px;
+}
+.card-title{
+    font-weight: 300px;
+}
+.card-category{
+    color: gray;
+}
+
+.card-link{
+    color: white;
+    text-decoration: none;
+    background-color: #2354cc;
+    border-radius: 25px;
+    padding: 8px 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
