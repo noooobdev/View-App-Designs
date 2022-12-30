@@ -12,6 +12,7 @@ function App() {
   function handleChange(e) {
     setPlatform(e.target.value);
   }
+
   return (
     <div className="App">
       <Navbar setKeys={setKeys} keys={keys} />
